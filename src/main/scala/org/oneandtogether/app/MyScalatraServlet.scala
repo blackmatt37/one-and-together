@@ -5,7 +5,7 @@ import scalate.ScalateSupport
 
 class MyScalatraServlet extends OneAndTogetherStack {
 
-  val pages = Array("home", "info", "service", "bio", "forms", "faq", "contact", "links")
+  val pages = Array("home", "who", "involved", "news", "donate", "photos", "members", "contact")
   get("/") {
     contentType = "text/html"
     jade("home.jade")
