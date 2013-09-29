@@ -10,30 +10,30 @@ html
 		link(href='/dist/css/bootstrap.min.css' rel='stylesheet')
 		script(src='/dist/js/bootstrap.min.js')
 		link(href='/dist/css/style.css' rel='stylesheet')
-		title= "Kids in Motion - " + title
+		title= "One and Together - " + title
 	body
 		.navbar.navbar-inverse.navbar-fixed-top
 			.row
 				.col-md-1
 				.col-md-10
-					a.navbar-brand(href="/") Kids in Motion
+					a.navbar-brand(href="/") One and Together
 					ul.nav.navbar-nav
 						li(class={if(page=="home") "active" else ""})
 							a(href="/home") Home
-						li(class={if(page=="info") "active" else ""})
-							a(href="/info") Info
-						li(class={if(page=="service") "active" else ""})
-							a(href="/service") Services
-						li(class={if(page=="bio") "active" else ""})
-							a(href="/bio") Bio
-						li(class={if(page=="forms") "active" else ""})
-							a(href="/forms") Forms
-						li(class={if(page=="faq") "active" else ""})
-							a(href="/faq") FAQ
+						li(class={if(page=="who") "active" else ""})
+							a(href="/who") Who We Are
+						li(class={if(page=="involved") "active" else ""})
+							a(href="/involved") Get Involved
+						li(class={if(page=="news") "active" else ""})
+							a(href="/news") News
+						li(class={if(page=="donate") "active" else ""})
+							a(href="/donate") Donate
+						li(class={if(page=="photos") "active" else ""})
+							a(href="/photos") Photo Gallery
+						li(class={if(page=="members") "active" else ""})
+							a(href="/members") Members
 						li(class={if(page=="contact") "active" else ""})
 							a(href="/contact") Contact Us
-						li(class={if(page=="links") "active" else ""})
-							a(href="/links") Links
 				.col-md-1
 		#content
 			.row
